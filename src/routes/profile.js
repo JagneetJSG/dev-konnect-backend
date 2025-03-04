@@ -27,9 +27,4 @@ profileRouter.patch("/profile/edit", userAuth, async (req, res) => {
   }
 });
 
-// profileRouter.post("/sendConnectionRequest", userAuth, (req, res) => {
-//   const user = req.user;
-//   res.send(user.firstName + "send the request");
-// });
-
 module.exports = profileRouter;
